@@ -1,0 +1,46 @@
+.education__list-item,
+.work__list-item {
+  padding: 2rem;
+  border-left: 1px solid #434343;
+  border-bottom: 1px solid #434343;
+}
+
+.experience__education-header,
+.experience__work-header {
+  text-shadow: 10px 10px 10px rgba(0, 0, 0, .5), 20px 20px 20px rgba(0, 0, 0, .4), 30px 30px 30px rgba(0, 0, 0, .1);
+  font-size: 1.875rem;
+  line-height: 2.25rem;
+  color: rgb(231 229 228);
+  letter-spacing: -.025em;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+
+.experience__education-header span,
+.experience__work-header span {
+  color: #55D983;
+}
+
+.education__list-date,
+.work__list-date {
+  font-weight: 500;
+  font-size: 1rem;
+  line-height: 1rem;
+  padding: 1.25rem;
+}
+
+.education__list-name,
+.work__list-name {
+  color: rgb(255 255 255);
+  font-weight: 700;
+  margin-top: 0;
+  font-size: 1.4em;
+  line-height: 1.4;
+  margin-bottom: .8em;
+}
+
+.education__list-description>p,
+.education__list-description>p {
+  color: rgb(164 164 164);
+font-size: 1.2em;
+}

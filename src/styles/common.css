@@ -1,0 +1,23 @@
+:root{
+  --main: rgb(255 255 255);
+  --background: #1A1A1A;
+  --font: 1.5rem;
+  --border-radius: 20px;
+}
+
+body {
+  font-family: "poppins", sans-serif !important;
+  background-color: black;
+  color: var(--main);
+}
+
+.btn{
+  text-decoration: none;
+}
+.container {
+  max-width: 1280px;
+  /*(1720px + 30px * 2) */
+  margin: 0 auto;
+  padding: 0 30px;
+  background-color: var(--background);
+}

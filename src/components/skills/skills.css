@@ -1,0 +1,35 @@
+.skills__wrapper {
+  margin-top: 4cap;
+  width: 95%;
+}
+
+.skills__list {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.skills-item {
+  position: relative;
+}
+
+.skills-item>img {
+  height: 5rem !important;
+}
+
+@media (max-width: 1000px) {
+  .skills-item>img {
+    height: 4rem !important;
+  }
+}
+
+@media (max-width: 500px) {
+  .skills-item>img {
+    height: 3rem !important;
+  }
+
+  .skills__wrapper {
+    width: 80;
+  }
+}

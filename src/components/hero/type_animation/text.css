@@ -1,0 +1,5 @@
+@media (max-width: 515px) {
+  .many-more {
+    display: none !important;
+  }
+}
